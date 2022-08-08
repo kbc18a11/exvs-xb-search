@@ -22,17 +22,14 @@ export const AirframeForm = () => {
    * 機体情報の取得
    */
   const getAirframeInfos = () => {
-    console.log('aa');
+
   };
 
   return (
     <form className={styles.airframeSearchForm}>
       <Card sx={{ minWidth: 275 }}>
         <CardContent>
-          <InputLabel
-          >
-            機体名
-          </InputLabel>
+          <InputLabel>機体名</InputLabel>
           <TextField
             variant="outlined"
             value={airframeName}
